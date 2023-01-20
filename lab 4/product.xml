@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    
+    <product><id>2</id><name>Красные розы</name><price>2100</price><descr>Банальщина</descr></product>
+    <product><id>3</id><name>Тюльпан</name><price>200</price><descr>Для школьников</descr></product>
+    <product><id>4</id><name>1001 роза</name><price>50000</price><descr>Для фотографий в соцсети</descr></product><product><id>5</id><name>Лилии</name><price>500</price><descr>Аккуратней с аллергией</descr></product></products>

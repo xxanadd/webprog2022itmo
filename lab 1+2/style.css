@@ -1,0 +1,184 @@
+.mobile-header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+.header-items{
+    display: flex;
+    padding: 2% 4%;
+    font: 16px Montserrat, sans-serif;
+    border-top: solid #AE7C78;
+    border-bottom: solid #AE7C78;
+    box-sizing: border-box;
+    color: #AE7C78;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 2080px;
+    margin: auto;
+    position: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+}
+.text-folder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.name{
+    font: 44px Playfair Display, Montserrat;
+    color: #AE7C78;
+    text-align: center;
+}
+.pink-text{
+    font: 24px Montserrat, 
+    Playfair Display;
+    color: #AE7C78;
+    text-align: center;
+    flex-direction: column;
+}
+.pink-text>b {
+    font-size: 30px;
+}
+.white-text{
+    display: flex;
+    font: 16px Montserrat, sans-serif;
+    color: #FFFF;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+
+}
+.button{
+    background-color: #D89999;
+    border-radius: 40px;
+    justify-content: center;
+    align-content: center;
+    min-height: 5px;
+    max-width: 20px;
+    max-width: 285px;
+    max-height: 50px;
+    alignment: center;
+}
+
+.offers{
+    display: flex;
+    align-items: center;
+    alignment: center;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nomen{
+    font: 36px Playfair Display, sans-serif;
+    color: #AE7C78;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.popular-folder{
+    display: inline-flex;
+    align-items: center;
+    alignment: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.sales{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.sale-img{
+    height: fit-content;
+    width: fit-content;
+}
+.mobile-bottom{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.bottom-items{
+    display: flex;
+    padding: 2% 4%;
+    font: 16px Montserrat, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    background-color: #AE7C78;
+}
+@media screen and (max-width: 600px){
+    .header, .bottom, .offers{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 600px){
+    .header, .bottom, .offers{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .header, .bottom, .offers{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    .header-items, .bottom-items{
+        font-size: 28px;
+    }
+    .offers{
+        display: flex;
+        align-items: center;
+        alignment: center;
+        justify-content: center;
+        align-content: center;
+        padding: 10%;
+    }
+    .pink-text{
+        font-size: 30px;
+    }
+    .mobile-header, .mobile-bottom, .mobile-feedback{
+        display: none;
+    }
+
+}
